@@ -1,0 +1,17 @@
+{
+  "name": "angular-cms",
+  "description": "Angular CMS tools",
+  "main": "index.js",
+  "authors": [
+    "Sean E. Duffy"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

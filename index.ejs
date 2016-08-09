@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<script>
+var p = [
+	"This is a paragraph.",
+	"It's a nice paragraph.",
+	"I mean, right?"
+];
+
+var serverData = {
+	text: p
+};
+</script>
+<script src="/angular/angular.js"></script>
+<script src="/main.js"></script>
+<link type="text/css" rel="stylesheet" href="/main.css">
+</head>
+<body ng-app="main" ng-controller="ctrl">
+<ngcms submit="reportData()" data="data">
+	<ngcms-textarea data="data.text"></ngcms-textarea>
+	<ngcms-submit>submit</ngcms-submit>
+</ngcms>
+</body>
+</html>
